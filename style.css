@@ -29,6 +29,7 @@ form{
     height: 100px;
 }
 .year{
+    margin-left: 120px;
     margin-top: 30px;
     width: 125px;
     font-size: 18px;
@@ -36,12 +37,14 @@ form{
 
 }
 .month{
+    margin-left: 100px;
     margin-top: 30px;
     width: 125px;
     font-size: 18px;
     font-weight: 700;
 }
 .day{
+    margin-left: 140px;
     margin-top: 30px;
     width: 125px;
     font-size: 18px;
@@ -76,3 +79,34 @@ form{
     font-size: 16px;
 
 }
+
+}
+.radio{
+    display: inline-block;
+    padding-right: 70px;
+    font-size: 25px;
+    margin-left: 25px;
+    margin-top: 15px;
+    color: white;
+}
+.radio input{
+    width: 20px;
+    height: 2px;
+    border-radius:50%;
+    cursor: pointer;
+    outline: none;
+}
+.submit{
+    background-color: #3baf9f;
+    display: block;
+    margin: 20px 0px 0px 20px;
+    text-align: center;
+    border-radius:12px;
+    border: 2px solid #366473;
+    padding: 14px 110x;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.25px; 
+}
+  
