@@ -33,4 +33,14 @@ form{
     margin-top: 30px;
     width: 125px;
     font-size: 18px;
+    font-weight: 700;
+}
+.firstinput{
+    position: relative;
+    left: 200px;
+    top: -37px;
+    line-height: 40px;
+    border-radius: 6;
+    padding: 0 22px;
+    font-size: 16px;
 }
