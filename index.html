@@ -14,17 +14,26 @@
  <div class="main">
     <form>
       <div id="input">
-        <h3 class="year">YEAR</h3>
+        <h3 class="year">YEAR:</h3>
         <input class="firstinput" type="text" name="year">
-        <h3>MONTH</h3>
+        <h3 class="month">MONTH:</h3>
         <input class="secondinput" type="text" placeholder="0-30">
-        <h3>DAY</h3>
+        <h3 class="day">DAY:</h3>
         <input class="thirdinput" type="text" placeholder="0-6">
-        <h3>Choose gender below:</h3>
-        <label>MALE:</label>
-        <input type="radio" name="gender" value="male">
-        <label>FEMALE:</label>
-        <input type="radio" name="gender" value="female"><br><br>
+        <h3 class="gender">Choose gender below:</h3>
+        <label class="radio">
+          <input class="radio-one" type="radio" checked="checked">
+          <span class="checkmark"></span>
+          MALE:
+        </label>
+        
+        <label class="radio">
+          <input class="radio-two" type="radio">
+          <span class="checkmark"></span>
+          FEMALE:
+        </label>
+        <br><br>
+        
         <button class="submit">submit</button>
       </div>
     </form>
