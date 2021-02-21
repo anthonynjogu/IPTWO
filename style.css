@@ -1,5 +1,5 @@
 body{
-    background-image: url(birth.jpg);
+    background-image: url(splash.jpg);
     background-position: center;
     background-size: 100%100%;
     font-family: sans-serif;
@@ -9,15 +9,18 @@ body{
 }
 .description{
     width: 800px;
-    background-color: aliceblue;
+    background-color: rgb(0,0,0,0.6);
     margin: auto;
-    color: black;
+    color: #ffff;
     padding: 10px 0px 10px 0px;
     text-align: center;
     border-radius: 15px 15px 0px 0px;
 }
 .main{
-    background-color: aliceblue;
+    background-color: rgb (0,0,0,0,5);
     width: 800px;
     margin: auto;
+}
+form{
+    padding: 10px;
 }
