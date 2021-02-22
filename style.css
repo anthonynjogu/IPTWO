@@ -111,10 +111,11 @@ body{
     color: yellow;
 }
 .submit{
-    background-color: yellow;
+    background-color: #fece0c;
     display: block;
     margin-top: 40px;
-
+    font-weight: bold;
+    letter-spacing: 5px;
     text-align: center;
     border-radius:12px;
     border: 2px solid yellow;
