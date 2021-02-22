@@ -15,12 +15,14 @@ body{
     padding: 10px 0px 10px 0px;
     text-align: center;
     border-radius: 15px 15px 0px 0px;
+    font-weight: bold;
 }
 .main{
     width: 800px;
     margin: auto;
     background-color: rgb(0,0,0,0.6);
     border-radius: 15px 15px 0px 0px;
+    font-family: inherit;
 
 
 }
@@ -124,7 +126,7 @@ body{
     color: black;
     cursor: pointer;
     transition: 0.25px; 
-    width: 60%;
+    width: 44%;
     
 } 
 .foot{
