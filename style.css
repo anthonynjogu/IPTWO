@@ -14,14 +14,14 @@ body{
     color: yellow;
     padding: 10px 0px 10px 0px;
     text-align: center;
-    border-radius: 15px 15px 0px 0px;
+    border-radius: 15px 15px 15px 15px;
     font-weight: bold;
 }
 .main{
     width: 800px;
     margin: auto;
     background-color: rgb(0,0,0,0.6);
-    border-radius: 15px 15px 0px 0px;
+    border-radius: 15px 15px 15px 15px;
     font-family: inherit;
 
 
@@ -35,7 +35,7 @@ body{
 }
 .year{
     margin-left: 120px;
-    margin-top: 30px;
+    margin-top: 20px;
     width: 125px;
     font-size: 18px;
     font-weight: 700;
@@ -43,8 +43,8 @@ body{
 
 }
 .month{
-    margin-left: 100px;
-    margin-top: 30px;
+    margin-left: 100px; 
+    margin-top: 20px;
     width: 125px;
     font-size: 18px;
     font-weight: 700;
@@ -61,7 +61,7 @@ body{
 .firstinput{
     position: relative;
     margin-left: 200px;
-    margin-top: -37px;
+    margin-top: -10px;
     line-height: 20px;
     border-radius: 6;
     padding: 0 22px;
