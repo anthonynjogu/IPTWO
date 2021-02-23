@@ -6,18 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>IP WEEK 2</title>
     <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="index.js"></script>
 </head>
 <body>
   <h1 class="description">ENTER YOUR BIRTH DETAILS AND GET TO KNOW YOUR AKAN NAME.</h1>
   <div class="main">
-    <form class="form" method="GET">
+    <form class="form" method="GET" onsubmit="return validation()">
       <div id="form">
         <h3 class="year">YEAR:</h3>
-        <input class="firstinput" type="text" name="year">
+        <input class="firstinput" type="text" name="year" required>
         <h3 class="month">MONTH:</h3>
-        <input class="secondinput" type="text" placeholder="">
+        <input class="secondinput" type="text" placeholder="" required>
         <h3 class="day">DATE OF MONTH:</h3>
-        <input class="thirdinput" type="text" placeholder="">
+        <input class="thirdinput" type="text" placeholder="" required>
         <div class="foot">
           <h3 class="gender">Choose gender below:</h3>
           <label><strong>MALE:</strong></label>
@@ -32,6 +33,6 @@
         
       </div>
     </form>
-  </div>    
+  </div>  
 </body>
 </html>
