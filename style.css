@@ -20,6 +20,19 @@ body{
     border-radius: 15px 15px 15px 15px;
 
 }
+.century{
+    font-size: 18px;
+    font-weight: 700;
+    color: yellow;
+   
+}
+.cc{
+    margin-top: -37px;
+    line-height: 20px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+}
 .main{
     width: 400px;
     margin: auto;
