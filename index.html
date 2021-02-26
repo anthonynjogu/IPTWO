@@ -6,32 +6,31 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>IP WEEK 2</title>
     <link rel="stylesheet" href="style.css" type="text/css">
-    <script src="index.js"></script>
+   
 </head>
 <body>
-  <h1 class="description">ENTER YOUR BIRTH DETAILS AND GET TO KNOW YOUR AKAN NAME.</h1>
- 
-  <div class="main">
-    <form class="form" method="GET" onsubmit="return validation()">
-      <div id="form">
-        <h3 class="year">DATE OF BIRTH:</h3>
-        <input id="year" class="firstinput" type="date" name="year">
-        <div class="foot">
-          <h3 class="gender">Choose gender below:</h3>
-          <label><strong>MALE:</strong></label>
-          <input class="input" type="radio" name="gender" value="name">
-          <label><strong>FEMALE:</strong></label>
-          <input class="input" type="radio" name="gender" value="name">
-          <button onclick="myFunction()" class="submit">submit</button>
-        </div>
+  <div class="description">
+    <h1>ENTER YOUR BIRTH DETAILS AND GET TO KNOW YOUR AKAN NAME.</h1>
+  </div>
+  <div>
+    <form method="POST" onsubmit="myFunction(event)">
+      <div class="main">
+        <h3 class="century">CENTURY:</h3>
+        <input id="century" class="cc" type="text" name="century" required>
+        <h3 class="DOB">DATE OF BIRTH:</h3>
+        <input id="date" class="firstinput" type="date" name="date" required>
+        <h3 class="gender">Choose gender below:</h3>
+        <label><strong>MALE:</strong></label>
+        <input class="input" type="radio" name="gender" value="name">
+        <label><strong>FEMALE:</strong></label>
+        <input class="input" type="radio" name="gender" value="name">
+        <button type="submit" class ="submit">submit</button>
 
-        
-       
-
-        
-      </div>
     </form>
-  </div>  
-  <p id="test"></p>
+    <div class="foot">
+      <h1 id="test">AKAN name is..</h1>
+    </div>
+    <script src="index.js"></script>
+ 
 </body>
 </html>
