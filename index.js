@@ -11,7 +11,7 @@ const dayOfTheWeek = Math.round(( ( (cc/4) -2*cc-1) + ((5*yy/4) ) + ((26*(mm+1)/
 
 console.log(dayOfTheWeek);
 
-let akanName;
+let akanName = gender;
  
 if (gender == "male"){
    akanName = maleNames [dayOfTheWeek]
@@ -27,10 +27,10 @@ event.preventDefaut()
 };
 
 
-var getAkanName = function(e){
-    e.preventDefaut()
-    const date = document.getElementById("date").value
-    console.log(date)
+//var getAkanName = function(e){
+   // e.preventDefaut()
+   // const date = document.getElementById("date").value
+    //console.log(date)
 
 }
 
